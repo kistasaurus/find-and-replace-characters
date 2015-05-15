@@ -1,4 +1,4 @@
-# find-and-replace-characters-in-dreamweaver
+# Find and Replace Characters in Dreamweaver
 Commands to find and replace special characters with their unicode in Adobe Dreamweaver.  Based on http://forums.adobe.com/thread/1193750
 
 To use these commands in Dreamweaver -
