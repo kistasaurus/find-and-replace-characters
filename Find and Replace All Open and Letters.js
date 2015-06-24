@@ -1,4 +1,4 @@
-// This does the finding and replacing.  This will find and replace for all open documents.
+// JavaScript Document
 function canAcceptCommand() {
     return true;
 }
@@ -146,6 +146,15 @@ function doIt() {
 	dreamweaver.setUpFindReplace({
     searchString: "¿",
     replaceString: "&iquest;",
+    searchWhat: "allOpenDocuments",
+    searchSource: true,
+    useRegularExpressions: false
+    });
+    dreamweaver.replaceAll();
+	
+	dreamweaver.setUpFindReplace({
+    searchString: "¢",
+    replaceString: "&cent;",
     searchWhat: "allOpenDocuments",
     searchSource: true,
     useRegularExpressions: false
