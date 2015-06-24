@@ -153,6 +153,15 @@ function doIt() {
     dreamweaver.replaceAll();
 	
 	dreamweaver.setUpFindReplace({
+    searchString: "¢",
+    replaceString: "&cent;",
+    searchWhat: "document",
+    searchSource: true,
+    useRegularExpressions: false
+    });
+    dreamweaver.replaceAll();
+	
+	dreamweaver.setUpFindReplace({
     searchString: "À",
     replaceString: "&Agrave;",
     searchWhat: "document",
