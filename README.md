@@ -1,5 +1,11 @@
-# Find and Replace Characters in Dreamweaver
-Commands to find and replace special characters with their unicode in Adobe Dreamweaver.  Based on http://forums.adobe.com/thread/1193750
+# Find and Replace Characters
+Commands to find and replace special characters with their unicode version.  Useful for removing special characters from HTML emails.
+
+## AppleScript
+This is set up to run in TextWrangler on whatever file you have open.  Once you run it, it will find and replace all the listed special characters automatically, then save your file.
+
+## Dreamweaver
+Dreamweaver commands based on http://forums.adobe.com/thread/1193750
 
 To use these commands in Dreamweaver -
 1. Download commands to computer.
